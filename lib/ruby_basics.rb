@@ -12,7 +12,7 @@ def argue
   
 end
 
-def greeting
+def greeting(greeting, name)
 
 end
 
@@ -24,6 +24,6 @@ def last_evaluated_value
 
 end
 
-def pizza_party
-
+def pizza_party(topping = "cheese")
+  topping
 end
